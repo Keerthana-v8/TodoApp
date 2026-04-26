@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Todo App 🚀");
+res.send("Hello Updated App 🚀");
 });
 
 app.listen(3000, () => {
